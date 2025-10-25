@@ -1,7 +1,21 @@
-# PDM4AR-exercises
+# Planning and Decision Making - Course Project
 
-This repo contains the code of the first big-project that were done during the ETH course Planning and Decision Making of the professor Frazzoli during my Master study program.
+Final project for the *Planning and Decision Making for Autonomous Robots* course at ETH Zürich (Prof. Emilio Frazzoli), HS24.
 
-### How to run
+## Quick Start
 
-To run the code is necessary tu use Docker. Once Docker is open, from VScode press ctrl+shift+P and rebuild the container. Once the container is open, run the code from the debugger selecting Exercise11 - run
+**Prerequisites:** Docker + VS Code with Dev Containers extension
+
+1. Clone the repo and open in VS Code
+2. Press `Ctrl+Shift+P` → `Dev Containers: Rebuild and Reopen in Container`
+3. Run from debugger: Select `Exercise11 - run`
+
+## Structure
+
+- **Exercises 1-10:** Course assignments
+- **Exercise 11:** 🎯 **Main project** - SCvx for Spaceship Navigation
+
+## Key Features
+
+- Optimization-based planning with CVXPY
+- Integration with DgCommons simulation framework
